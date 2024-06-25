@@ -10,3 +10,17 @@ I am a good team player. I don't have much experience. I have a little practice 
 * BEM methodology;
 * Git;
 * Visual Studio Code, Adobe Photoshop;
+###Code Example:
+````function removeChar(str){
+       var str1 = str.split('');
+       str1.pop();
+       str1.shift();
+      return str1.join('');
+};````
+
+###Education
+1. BS, Economic Law, National Law Academy, Kharkov, Ukraine,  2010
+2. MS, Banking, Kharkov National Economic University,  Kharkov, Ukraine, 2008
+###My knowledge of English
+I have been studying English for 2 year in Avents Edult School Los Angeles, California. 
+According to the results of the school, my level is B1 of English. 
