@@ -21,7 +21,8 @@ I am a good team player. I don't have much experience. I have a little practice 
        str1.pop();
        str1.shift();
       return str1.join('');
-};```
+};
+```
 
 ###Education
 1. BS, Economic Law, National Law Academy, Kharkov, Ukraine,  2010
