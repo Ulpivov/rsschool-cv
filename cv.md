@@ -16,7 +16,8 @@ I am a good team player. I don't have much experience. I have a little practice 
 
 ###Code Example:
 
-```function removeChar(str){
+```javascript
+function removeChar(str){
        var str1 = str.split('');
        str1.pop();
        str1.shift();
