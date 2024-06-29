@@ -108,7 +108,15 @@ h1{
 .main{
 	display: flex;
 	min-height: calc(100vh - 25vh);
-
+	flex-direction: row;
+}
+.about{
+background: #BC8F8F;
+flex: 1;
+}
+.skills{
+background-color: #6e5d5d;
+flex: 1;
 }
 
 /*-----------------finish main--------------------------*/
