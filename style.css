@@ -82,25 +82,33 @@ h6 {
 	height: 20vh;
 	background: #FFDAB9;
 	display: flex;
-	justify-content: center;
 }
+	.header__left{
+flex:1;
+padding: 28px 0px 0px 225px;
+	}
+	.header__right{
+flex: 1;
+	}
+
 h1{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 50px;
 	font-weight: 900;
+	color:#5a4646;
 }
 .header__subtitle{
 	font-family: 'Times New Roman', Times, serif; 
 	font-size: 24px;
 	font-weight: 900;
-
+	color:#5a4646;
 }
 .ava{
 	 border: solid 2px #BC8F8F;
     height: 200px;
     width: 200px;
     border-radius: 100px;
-
+	
 }
 /*----------------finish header------------------------*/
 
@@ -109,16 +117,66 @@ h1{
 	display: flex;
 	min-height: calc(100vh - 25vh);
 	flex-direction: row;
+	padding-top: 10px;
 }
 .about{
-background: #BC8F8F;
 flex: 1;
-}
-.skills{
-background-color: #6e5d5d;
-flex: 1;
+display: flex;
+flex-direction: column;
 }
 
+.summury__subtitle,
+.education__subtitle,
+.english__subtitle, 
+.code__subtitle, 
+.skills__subtitle {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: #6e5d5d;
+	font-weight: 600;
+}
+.summury__describe,
+.english__describe,
+
+.code
+ {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 21px;
+	padding-top: 24px;
+	line-height: 28px;
+}
+.education, 
+.english,
+.summury {
+	flex: 1;
+	padding: 10px 20px 10px 225px;
+}
+
+.eduction__list,
+.skills__list {
+	padding-top: 24px;
+}
+.education__item,
+.skills__item{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 21px;
+	line-height: 28px;
+}
+
+.experience{
+flex: 1;
+}
+.skills__list {
+}
+.skills__item {
+}
+.code, 
+.skills {
+padding: 10px 225px 20px 10px;
+}
+.code__subtitle {
+}
 /*-----------------finish main--------------------------*/
 
 
@@ -126,7 +184,21 @@ flex: 1;
 .footer{
 	height: 5vh;
 	background: #FFDAB9;
+	display: flex;
 }
 
+.contacts {
+	display: flex;
+	flex: 1;
+   padding: 0px 225px;
+}
+.contacts__item {
+	flex:1;
+	color:#5a4646;
+	display: inline;
+	align-content: center;
+	font-size: 21px;
+	font-weight: 600;
+}
 /*----------------finish footer------------------------*/
 
