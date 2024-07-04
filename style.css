@@ -104,10 +104,10 @@ h1{
 	color:#5a4646;
 }
 .ava{
-	 border: solid 2px #BC8F8F;
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
+	border: solid 2px #BC8F8F;
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
 	
 }
 /*----------------finish header------------------------*/
@@ -140,7 +140,7 @@ flex-direction: column;
 .english__describe,
 
 .code
- {
+{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 21px;
 	padding-top: 24px;
