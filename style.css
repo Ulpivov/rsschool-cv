@@ -119,7 +119,8 @@ h1{
 	flex-direction: row;
 	padding-top: 10px;
 }
-.about{
+.about,
+.experience{
 flex: 1;
 display: flex;
 flex-direction: column;
@@ -148,7 +149,9 @@ flex-direction: column;
 }
 .education, 
 .english,
-.summury {
+.summury,
+.code, 
+.skills {
 	flex: 1;
 	padding: 10px 20px 10px 225px;
 }
@@ -164,18 +167,16 @@ flex-direction: column;
 	line-height: 28px;
 }
 
-.experience{
-flex: 1;
-}
+.experience
 .skills__list {
 }
 .skills__item {
 }
-.code, 
-.skills {
-padding: 10px 225px 20px 10px;
-}
+
 .code__subtitle {
+}
+.navigation{
+	flex: 1;
 }
 /*-----------------finish main--------------------------*/
 
