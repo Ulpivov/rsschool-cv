@@ -130,7 +130,8 @@ flex-direction: column;
 .education__subtitle,
 .english__subtitle, 
 .code__subtitle, 
-.skills__subtitle {
+.skills__subtitle,
+.contacts__subtitle {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-size: 40px;
 	text-align: center;
@@ -151,7 +152,8 @@ flex-direction: column;
 .english,
 .summury,
 .code, 
-.skills {
+.skills,
+.contacts {
 	flex: 1;
 	padding: 10px 20px 10px 225px;
 }
@@ -161,13 +163,12 @@ flex-direction: column;
 	padding-top: 24px;
 }
 .education__item,
-.skills__item{
+.skills__item,
+.contacts__item{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 21px;
 	line-height: 28px;
 }
-
-.experience
 .skills__list {
 }
 .skills__item {
@@ -177,6 +178,16 @@ flex-direction: column;
 }
 .navigation{
 	flex: 1;
+	padding-top: 10px;
+	padding-left: 100px;
+
+}
+.navigation__item{
+	color:#5a4646;
+	font-size: 40px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	line-height: 60px;
 }
 /*-----------------finish main--------------------------*/
 
@@ -188,18 +199,10 @@ flex-direction: column;
 	display: flex;
 }
 
-.contacts {
-	display: flex;
-	flex: 1;
-   padding: 0px 225px;
-}
+
 .contacts__item {
 	flex:1;
-	color:#5a4646;
-	display: inline;
-	align-content: center;
-	font-size: 21px;
-	font-weight: 600;
+
 }
 /*----------------finish footer------------------------*/
 
