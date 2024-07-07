@@ -1,0 +1,236 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/*-----------*/
+
+/*-----------------strat header-----------------------*/
+.container{
+	
+}
+.header{
+	height: 20vh;
+	background: #FFDAB9;
+	display: flex;
+}
+	.header__left{
+flex:1;
+padding: 28px 0px 0px 225px;
+	}
+	.header__right{
+flex: 1;
+	}
+
+h1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	color:#5a4646;
+}
+.header__subtitle{
+	font-family: 'Times New Roman', Times, serif; 
+	font-size: 24px;
+	font-weight: 900;
+	color:#5a4646;
+}
+.ava{
+	border: solid 2px #BC8F8F;
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+	
+}
+/*----------------finish header------------------------*/
+
+/*----------------start main--------------------------*/
+.main{
+	display: flex;
+	min-height: calc(100vh - 35vh);
+	flex-direction: row;
+	padding-top: 10px;
+	
+}
+.about,
+.experience{
+flex: 1;
+display: flex;
+flex-direction: column;
+
+}
+
+.summury__subtitle,
+.education__subtitle,
+.english__subtitle, 
+.code__subtitle, 
+.skills__subtitle,
+.contacts__subtitle {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: #6e5d5d;
+	font-weight: 600;
+}
+.summury__describe,
+.english__describe,
+
+.code
+{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 21px;
+	padding-top: 24px;
+	line-height: 28px;
+}
+.education, 
+.english,
+.summury,
+.code, 
+.skills,
+.contacts {
+	flex: 1;
+	padding: 100px 20px 10px 225px;
+}
+.main :last-child{
+	padding-bottom: 30px;
+}
+.eduction__list,
+.skills__list,
+.contacts__list {
+	padding-top: 24px;
+}
+.education__item,
+.skills__item,
+.contacts__item{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 21px;
+	line-height: 28px;
+}
+.skills__list {
+}
+.skills__item {
+}
+
+.code__subtitle {
+}
+.navigation{
+	flex: 1;
+	padding-top: 90px;
+	padding-left: 100px;
+	
+
+}
+.navigation__link{
+	color:#5a4646;
+	font-size: 40px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	line-height: 60px ;
+}
+/*-----------------finish main--------------------------*/
+
+
+/*----------------start footer--------------------------*/
+.footer{
+	height: 15vh;
+	background: #FFDAB9;
+	padding: 0px 225px 0px 225px;
+	
+}
+.footer__list{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.contacts__item {
+	flex:1;
+}
+.footer__img{
+height: 100px;
+width: 100px;
+}
+.footer__year{
+	color:#5a4646;
+	font-size: 40px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+}
+.footer__item{
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+/*----------------finish footer------------------------*/
+
